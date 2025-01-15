@@ -137,7 +137,7 @@ function! s:get_oracle_queries()
   let schemes_query = "
       \SELECT /*csv*/ username
       \ FROM all_users U
-      \ WHERE 1 = 1 
+      \ WHERE 1 = 1
       \ " . common_condition . "
       \ ORDER BY username"
 
